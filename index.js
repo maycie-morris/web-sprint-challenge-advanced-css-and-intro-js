@@ -351,3 +351,11 @@ function randomize(/* Code here */) {
 
 
 /* STRETCH 3: Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example) */
+
+
+const born1900 = artists.filter(i => {
+  return i.years > '1900'
+})
+
+console.log("This is for stretch 3:", born1900)
+
