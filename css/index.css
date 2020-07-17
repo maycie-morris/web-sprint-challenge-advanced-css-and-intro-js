@@ -146,6 +146,9 @@ nav {
     justify-content: space-evenly;
 }
 
+.title-container hr {
+    width: 100%;
+}
 #home {
     font-weight: bold;
 }
@@ -187,8 +190,10 @@ h1 {
 }
 
 .bio {
+    margin-left: 20%;
+    margin-right: 20%;
     justify-content: center;
-    width: 90%;
+    width: 60%;
 }
 
 }
