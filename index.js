@@ -240,7 +240,7 @@ console.log("This is for task 3:", getArtistByIndex(artists, 0))
 function get20s(array) {
   const newArray = []
   for (let i = 0; i < array.length; i++) {
-    if (array[i].years > '1900'){
+    if (array[i].years > '1900') {
       newArray.push(array[i])
     }
   }
@@ -259,9 +259,13 @@ console.log("This is for task 4:", get20s(artists))
  * 
  * Note that sucessfully invoking this function multiple times without refreshing your browser will continuously remove artists from the array until there are none left. If you refresh your browser, the data will reset.  
 */
-function removeArtist(/*code here*/) {
-  /* code here */
+
+function removeArtist(array, index) {
+  array.splice(index, 1);
+  return array.length;
 }
+
+console.log("This is for task 5:", removeArtist(artists, 0))
 
 
 
